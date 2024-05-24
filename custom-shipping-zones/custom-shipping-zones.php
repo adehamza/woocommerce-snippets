@@ -15,10 +15,9 @@ add_filter( 'woocommerce_states', 'techiepress_custom_shipping_zones' );
 
 function techiepress_custom_shipping_zones( $states ) {
     
-    $states['CR'] = array(
-        'CR001' => 'Jaco',    
-        'CR002' => 'San Jose',    
-        'CR003' => 'Liberia',    
+    $states['SO'] = array(
+        'SO001' => 'Mogadishu',    
+           
     );
     
     return $states ;
